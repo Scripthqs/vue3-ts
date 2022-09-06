@@ -79,10 +79,10 @@ export default defineComponent({
         //     url: res.name //保存返回name属性
         //   };
         // });
-        option.img =
-          "https://gbps-dev.oss-accelerate.aliyuncs.com/gbps/public-read-write/commonManage/1659516460488.jpg";
-        option.img =
-          "https://www.msn.cn/zh-cn/news/other/iphone-14%E7%B3%BB%E5%88%97%E5%9B%BD%E8%A1%8C%E4%BB%B7%E6%A0%BC%E7%8E%B0%E8%BA%AB%E7%BA%BF%E4%B8%8B%E5%BA%97-%E8%B4%B5%E5%88%B0%E7%A6%BB%E8%B0%B1/ar-AA11t04n?ocid=msedgntp&cvid=d5cfde11b37b4966d2728623f1773b3aing.com/guanjia?channel=303404";
+        // option.img =
+        //   "https://gbps-dev.oss-accelerate.aliyuncs.com/gbps/public-read-write/commonManage/1659516460488.jpg";
+        // option.img =
+        //   "https://www.msn.cn/zh-cn/news/other/iphone-14%E7%B3%BB%E5%88%97%E5%9B%BD%E8%A1%8C%E4%BB%B7%E6%A0%BC%E7%8E%B0%E8%BA%AB%E7%BA%BF%E4%B8%8B%E5%BA%97-%E8%B4%B5%E5%88%B0%E7%A6%BB%E8%B0%B1/ar-AA11t04n?ocid=msedgntp&cvid=d5cfde11b37b4966d2728623f1773b3aing.com/guanjia?channel=303404";
       },
     });
 
