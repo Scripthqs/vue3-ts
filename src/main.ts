@@ -5,5 +5,6 @@ import store from './store'
 
 import Antd from 'ant-design-vue';
 import 'ant-design-vue/dist/antd.css';
-
-createApp(App).use(store).use(router).use(Antd).mount('#app')
+import VueCropper from 'vue-cropper'
+import 'vue-cropper/dist/index.css'
+createApp(App).use(store).use(router).use(Antd).use(VueCropper).mount('#app')

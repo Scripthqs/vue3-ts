@@ -5,7 +5,7 @@
     </a-layout-header>
     <a-layout>
       <a-layout-sider class="sider" v-model:collapsed="collapsed" collapsible>
-        <appMenu></appMenu>
+        <appMenu ></appMenu>
       </a-layout-sider>
       <a-layout style="padding: 0 24px 24px">
         <appBreadcrumb></appBreadcrumb>

@@ -3,6 +3,7 @@ import { createRouter, createWebHashHistory, RouteRecordRaw } from "vue-router";
 import localCache from "@/utils/cache";
 
 import welcome from "./modules/welcome";
+import upImg from "./modules/upImg";
 
 const routes: Array<RouteRecordRaw> = [
   {
@@ -18,7 +19,7 @@ const routes: Array<RouteRecordRaw> = [
     path: "/main",
     name: "main",
     component: () => import("@/views/main/index.vue"),
-    children: [...welcome],
+    children: [...welcome, ...upImg],
   },
 ];
 
